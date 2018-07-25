@@ -75,7 +75,8 @@ Car.prototype.slowloop = function(){
 				Barriers.all[r].speed_barriers++;
 			}
 		}
+		
 		}
 		VAR.slowloop++;
-		document.getElementById('point').innerHTML = 'POINTS: '+this.point+' SPEED: '+Game.street.speed;
+		document.getElementById('point').innerHTML = 'POINTS: '+this.point+' SPEED: '+Game.street.speed 'BEST SCORE:' ;
 }
