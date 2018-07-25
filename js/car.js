@@ -76,6 +76,7 @@ Car.prototype.slowloop = function(){
 			}
 		}
 		
+		localStorage.setItem('BestScore', this.point)
 		}
 		VAR.slowloop++;
 		document.getElementById('point').innerHTML = 'POINTS: '+this.point+' SPEED: '+Game.street.speed 'BEST SCORE:' ;
